@@ -1,0 +1,141 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header styling */
+  header {
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Logo styling */
+  header .logo {
+    justify-content: flex;
+  }
+
+  header .content-logo {
+    margin-top: 5;
+    font-size: 24px;
+    font-weight: bold;                
+    color: white;
+  }
+
+  .navigation nav ul {
+    margin-top: 0px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #111111;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navigation nav ul li {
+    margin-right: 20px;
+  }
+  
+  .navigation nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navigation nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for links */
+  .navigation nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+
+  .search-stuff{
+    justify-content: flex-start;
+
+  }
+  .search-text {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  .search-bar input {
+    
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 300px;
+    font-size: 16px;
+    border: 3px solid #111111;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+  }
+
+  table {
+    margin-top: 50px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    font-size: 16px;
+    width: 100%;
+  }
+  th {
+    background-color: grey;
+    text-align: left;
+    padding: 10px;
+  }
+  
+
+  td {
+    border: 5px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  tr:hover td:first-child {
+    color: rgb(9, 174, 230); /* Change the color on hover */
+    font-weight: bold;
+  }
+
+  .mini-page {
+    border-radius: 5px;
+    background-color: grey;
+    height: 700px;
+    margin: 500px;
+    margin-top: 50px;
+    border: 5px solid black;
+
+
+}
+
+.header-mini {
+  text-align: center;
+  height: 50px;
+  background-color: lightgrey;
+}
+
+.header-mini h1 {
+  text-align: center;
+  
+}
