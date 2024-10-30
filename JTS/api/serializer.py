@@ -5,3 +5,8 @@ class ItemSerializer(serializers.ModelSerializer):
     class Meta:
         model = Item
         fields = '__all__'
+
+class CreateItemSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Item
+        fields = ('name', 'aliases', 'aliasestwo', 'location', 'shelf', 'amount')
